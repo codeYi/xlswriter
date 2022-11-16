@@ -1,0 +1,17 @@
+{
+    "name": "php/xlswriter",
+    "description": "php operate excel files read or writer",
+    "type": "1",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=5.6",
+		"ext-zip": "*"
+	},
+	"autoload":{
+		"classmap": ["./src/xlswriter/xlsxwriter.class.php"],
+		"psr-4":{
+			"xlswriter\\":"src/xlswriter"
+		}
+	}
+}
